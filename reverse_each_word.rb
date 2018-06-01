@@ -5,8 +5,8 @@ def reverse_each_word(words)
     words.each do |word|
       return word.reverse!
     end
-    # sentence = words.reverse!
-    # sentence.join()
+    sentence = words.reverse!
+    sentence.join()
 end
 
 # def reverse_each_word(whatever)
